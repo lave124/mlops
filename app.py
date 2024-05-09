@@ -1,5 +1,6 @@
 from calculator import addition,subtract
 from multiply import do_multipication
+from area import calcuale_area
 
 def main():
     print("welcome to the calculator")
@@ -22,6 +23,9 @@ def main():
 
     elif user_input=="3":
         result=do_multipication(a,b)
+
+    elif user_input=="4":
+        result=calcuale_area(a,b)
 
     print("result,",result)
 
