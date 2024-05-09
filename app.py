@@ -1,5 +1,6 @@
 from calculator import addition,subtract,division
 from multiply import do_multipication
+from area import calcuale_area
 
 def main():
     print("welcome to the calculator")
