@@ -1,4 +1,4 @@
-from calculator import addition,subtract
+from calculator import addition,subtract,division
 from multiply import do_multipication
 
 def main():
@@ -7,7 +7,8 @@ def main():
           \n select the function from the given below 
           1.Add
           2.Subtract
-          3. Multiply''')
+          3. Multiply
+          4.Division''')
     
     user_input=input("Select the Option")
     a=int(input("Value of A"))
@@ -22,6 +23,9 @@ def main():
 
     elif user_input=="3":
         result=do_multipication(a,b)
+
+    elif user_input=="4":
+        result=division(a,b)
 
     print("result,",result)
 
